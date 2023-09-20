@@ -131,7 +131,7 @@ body {
 
 .hero-left {
   position: absolute;
-  left: 5%;
+  left: 7%;
 }
 
 .citrusFancy__feast__logo img {
@@ -368,17 +368,32 @@ body {
   border-radius: 7px;
 }
 
+@media (max-width: 1400px) {
+  .hero-left {
+    left: 5%;
+  }
+}
+
 @media (max-width: 1301px) {
+  .citrusFancy__feast__heroCopy h1 {
+    font-size: 52px;
+    line-height: 56px;
+  }
+
+  .citrusFancy__feast__heroCopy p {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
   .citrusFancy__feast-section__tab-content {
     width: 95%;
   }
 }
 
-
 @media screen and (max-width: 1100px) {
   .citrusFancy__feast__heroCopy h1 {
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 44px;
+    line-height: 46px;
   }
 
   .citrusFancy__feast__heroCopy p {
@@ -393,14 +408,24 @@ body {
 
 @media screen and (max-width: 921px) {
   .citrusFancy__feast__heroCopy h1 {
-    font-size: 28px;
-    line-height: 31px;
+    font-size: 38px;
+    line-height: 42px;
   }
 
   .citrusFancy__feast__heroCopy p {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 20px;
     padding: 10px 0 20px 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .hero-left {
+    left: 3%;
+  }
+
+  .splide__arrow {
+    display: none;
   }
 }
 
@@ -459,7 +484,6 @@ body {
   }
 
   /* Educational Mode */
-
   .citrusFancy__feast__card {
     width: 271px;
     height: 323.78px;
@@ -476,8 +500,7 @@ body {
   /* End Educational Mode */
 
   /* product */
-
-  .citrusFancy__feast__productScroller .citrusFancy__feast__sectionTitle{
+  .citrusFancy__feast__productScroller .citrusFancy__feast__sectionTitle {
     padding-bottom: 0;
   }
 
@@ -510,8 +533,8 @@ body {
 
 @media screen and (min-width:701px) and (max-width:767px) {
   .citrusFancy__feast__heroCopy h1 {
-    font-size: 46px;
-    line-height: 50px;
+    font-size: 56px;
+    line-height: 60px;
   }
 
   .citrusFancy__feast__heroCopy p {
@@ -523,17 +546,16 @@ body {
 
 @media screen and (min-width:600px) and (max-width:700px) {
   .citrusFancy__feast__heroCopy h1 {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 56px;
+    line-height: 60px;
   }
 
   .citrusFancy__feast__heroCopy p {
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 22px;
+    line-height: 26px;
     padding: 20px 0 20px 0;
   }
 }
-
 
 @media screen and (max-width:425px) {
   .citrusFancy__feast__heroCopy p {
@@ -591,12 +613,5 @@ body {
     font-size: 16px;
     line-height: 20px;
     padding: 12px 0 10px 0;
-  }
-}
-
-
-@media screen and (max-width:768px) {
-  .splide__arrow {
-    display: none;
   }
 }
