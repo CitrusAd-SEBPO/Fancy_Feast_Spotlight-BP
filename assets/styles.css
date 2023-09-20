@@ -412,7 +412,7 @@ body {
 /* End product scroller */
 
 @media screen and (max-width:1400px) {
-  #citrusFancy__feast__products{
+  #citrusFancy__feast__products {
     margin-left: 40px;
   }
 }
@@ -509,7 +509,7 @@ body {
     margin-bottom: 10px;
   }
 
-  .hero-rightCTA a{
+  .hero-rightCTA a {
     display: block;
     width: max-content;
     /* height: 50px; */
@@ -569,7 +569,7 @@ body {
     border: none;
   }
 
-  .citrusFancy__feast__commonCTA{
+  .citrusFancy__feast__commonCTA {
     width: max-content;
     height: max-content;
     background: none;
@@ -586,8 +586,14 @@ body {
     color: #001952;
   } */
 
-  #citrusFancy__feast__products{
+  #citrusFancy__feast__products {
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #citrusFancy__feast__products {
+    margin-left: 10px;
   }
 }
 
