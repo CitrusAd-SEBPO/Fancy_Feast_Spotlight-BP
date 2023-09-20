@@ -29,17 +29,20 @@ body {
 }
 
 .citrusFancy__feast__sectionTitle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "PetcoCircularTT-Bold", arial !important;
+  margin: 0;
+  font-family: PetcoCircularTT-Bold, arial !important;
+  font-weight: 900;
   font-size: 25px;
+  line-height: 29px;
   text-align: center;
+  color: #000;
+  padding-bottom: 30px;
+  font-weight: 900;
 }
 
 .citrusFancy__feast__sectionCTAgap {
   padding-top: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .sectionCommonCTA {
@@ -73,17 +76,17 @@ body {
     height: 50px;
   }
 
-  .citrusFancy__feast__Products {
+  /* .citrusFancy__feast__Products {
     margin-left: 20px;
-  }
+  } */
 }
 
 @media screen and (max-width:375px) {
   .citrusFancy__feast__sectionTitle {
     font-size: 20px;
+    line-height: 24px;
     width: 242px;
     margin: auto;
-    margin-bottom: 30px;
   }
 }
 
@@ -291,20 +294,29 @@ body {
 } */
 
 /* product scroller */
-/* .citrusFancy__feast__main-tab-content{
-  width: 1253px;
-  margin: auto;
-} */
 .citrusFancy__feast__productScroller {
-  margin: 20px auto;
+  /* margin: 20px auto;
   width: 100%;
-  max-width: 1250px;
+  max-width: 1250px; */
+  overflow: hidden;
+  max-width: 1440px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
-.citrusFancy__feast__Products {
+.citrusFancy__feast-section__tab-content {
+  /* width: 1253px;
+  margin: auto; */
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/* .citrusFancy__feast__Products {
   margin-top: 20px;
   margin-bottom: 26px;
-}
+} */
 
 .splide__arrow {
   -ms-flex-align: center;
@@ -335,31 +347,42 @@ body {
   opacity: 0;
 }
 
-.citrusFancy__feast-tab-card {
+/* .citrusFancy__feast-tab-card {
   width: 190px;
-  /* padding: 0 20px; */
+} */
+
+.citrusFancy__feast-tab-card>a {
+  text-decoration: none;
+  color: #000;
 }
 
 .citrusFancy__feast-tab-cardImg {
-  min-height: 190px;
+  /* min-height: 190px;
   margin-bottom: 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   /* background: #d8d8d8; */
+  padding: 0 10px;
+  margin: auto;
 }
 
 .citrusFancy__feast-tab-cardImg img {
-  max-width: 190px;
+  /* max-width: 190px;
   width: 100%;
-  object-fit: cover;
+  object-fit: cover; */
+  max-width: 100%;
+  max-height: 175px;
 }
 
 .citrusFancy__feast-tab-cardBody p {
-  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-family: PetcoCircularTT-Regular, arial !important;
+  color: #333;
   font-size: 16px;
   line-height: 22px;
-  color: #333333;
+  text-align: left;
+  margin: 20px 0 10px;
+  text-decoration: none;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -367,18 +390,18 @@ body {
   line-clamp: 2;
   -webkit-box-orient: vertical;
   max-height: 4em;
-  margin-bottom: 17px;
+  font-weight: 500;
 }
 
 .citrusFancy__feast__productCTA {
   border: 0;
   padding-left: 0;
-  background: none;
+  background: 0 0;
   text-decoration: underline;
-  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-family: PetcoCircularTT-Bold, arial !important;
   color: #001952;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 22px;
   font-weight: 900;
   cursor: pointer;
 }
@@ -411,11 +434,18 @@ body {
 
 /* End product scroller */
 
-@media screen and (max-width:1400px) {
+/* @media screen and (max-width:1400px) {
   #citrusFancy__feast__products {
     margin-left: 40px;
   }
+} */
+
+@media (max-width: 1301px) {
+  .citrusFancy__feast-section__tab-content {
+    width: 95%;
+  }
 }
+
 
 @media screen and (max-width: 1100px) {
   /* .citrusFancy__feast__heroImage-copy {
@@ -440,9 +470,9 @@ body {
     padding: 0 20px;
   }
 
-  .citrusFancy__feast-tab-card {
+  /* .citrusFancy__feast-tab-card {
     padding: 0 20px;
-  }
+  } */
 }
 
 @media screen and (max-width: 921px) {
