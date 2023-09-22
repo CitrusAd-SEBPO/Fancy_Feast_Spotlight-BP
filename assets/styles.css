@@ -94,6 +94,11 @@ body {
   display: none;
 }
 
+/* .citrusFancy__feast__productContainer::-webkit-overlay{
+  display: none;
+  overflow-x: auto;
+} */
+
 .citrusFancy__feast__wrapper {
   width: 100%;
   max-width: 1440px;
@@ -174,6 +179,7 @@ body {
   border: none;
   border-radius: 5px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* product section three across */
@@ -481,6 +487,7 @@ body {
     color: #fff;
     border: none;
     text-decoration: underline;
+    text-transform: capitalize;
   }
 
   /* Educational Mode */
